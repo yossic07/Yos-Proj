@@ -1,0 +1,66 @@
+body {
+	//width: 10px;
+    //background-color: blue;
+    //background-image:url(Nof-03.jpg);
+	//background-repeat:no-repeat;
+	//background-image: url("Nof-02.jpg");
+	//background-image: url("Nof-03.jpg");
+    //background-color: #cccccc;
+	  background-image: url(../img/MaiImg.jpg);background-repeat: no-repeat;
+    background-position-x: center;
+	/*background-position: top center;*/
+	width: 960px;
+	margin: 0 auto;
+
+
+} 
+.buttons{
+	width:100px;
+    height:100px;
+	float: right;
+    }
+.refreshButton{
+	
+	background-image:url(../img/RefreshBTN.jpg);
+    }
+.brotherImg{
+	font-size: 15px;
+	font-weight: bold;
+	color: white; 
+	background-color: #A3A3B3;
+	//background-image:url(IMG_0003.jpg);
+    }
+.parentsImg{
+	font-size: 20px;
+	font-weight: bold;
+	color: white; 
+	background-color: #A3A3B3;
+	}
+
+p    {
+	 color: #19FF19;
+	 width:100%; font-size: 40px; font-weight: bold;
+	 text-align: center;
+	 //position-align: middle;
+	 position: relative;
+	 top: 210px; 
+	 //bottom: 100px;
+}
+
+.digitalClock{
+     //background-color:blue; 
+	 color:#19FF19;
+	 //color:#FF00FF;
+	 max-width: 650px;
+     height: 15%;
+     font-family:courier;
+     font-weight: bold;
+     font-size:800%;
+	 //text-align: center;
+	 position: relative;
+	 //vertical-align: middle;
+     top: 320px;
+}
+
+h2   {color:Red; text-align: center;
+}
