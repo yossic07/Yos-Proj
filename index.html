@@ -9,16 +9,27 @@
 </style>
 <body onload="startTime()">
 	<h2>This is my first Web Page!</h2>
+		
+<table class="buttonsTable"  align="center">
+  <tr>
+    <th><button class="buttons brotherButt" type="button" onclick="pic1()">My lovely brother Noam</button></th>
+    <th><button class="buttons refreshButton" type="button" value="Reload Page" onClick="window.location.reload()" ></button></th>
+	<th><button class="buttons parentsButt" type="submit me" onClick= "pic2() ">My Parents</button></th>
+  </tr>  
+</table>
+
+
 	<p>Here is Mai's Digital Clock </p>
-<div>
-	<button class="buttons brotherImg" type="button" onclick="pic1()">My lovely brother Noam</button>
-	<button class="buttons refreshButton" type="button" value="Reload Page" onClick="window.location.reload()" ></button>
-	<button class="buttons parentsImg" type="submit me" onClick= "pic2() ">My Parents</button>
+	<center><img class="centerImg" src = "" id = "img" /></center>
+	
+<div class="center">
+    <div  id="clckTxt" ></div>
 </div>
 	
-	<div class="digitalClock" id="txt"></div> 
+	
+	<!div class="digitalClock" id="clckTxt" ><!/div>
+	
 
-	<img src = "" id = "img"/>
 
 <script src="js/Yos-Proj-01.js"></script>
 </body>
