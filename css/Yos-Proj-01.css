@@ -1,36 +1,50 @@
 body {
-	//width: 10px;
-    //background-color: blue;
-    //background-image:url(Nof-03.jpg);
-	//background-repeat:no-repeat;
-	//background-image: url("Nof-02.jpg");
-	//background-image: url("Nof-03.jpg");
-    //background-color: #cccccc;
-	  background-image: url(../img/MaiImg.jpg);background-repeat: no-repeat;
-    background-position-x: center;
-	/*background-position: top center;*/
-	width: 960px;
-	margin: 0 auto;
-
+	
+		background-color: #FFB2CC;
+		background-image: url(../img/MaiImg.jpg);
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: center;
+		
+		width: 960px;
+		margin: 0 auto;
 
 } 
+.test{
+	margin:auto;
+	width:330px;
+	padding:20px;
+
+//float: right;
+}
+.buttonsTable{
+	//align="center";
+	//margin-left: 10px;
+	 position: relative;
+	 top: 10px; 
+	
+	}
+	
 .buttons{
 	width:100px;
     height:100px;
 	float: right;
+	margin-left: 20px;
+	
     }
 .refreshButton{
 	
 	background-image:url(../img/RefreshBTN.jpg);
+	//display: inline-table;
     }
-.brotherImg{
+.brotherButt{
 	font-size: 15px;
 	font-weight: bold;
 	color: white; 
 	background-color: #A3A3B3;
 	//background-image:url(IMG_0003.jpg);
     }
-.parentsImg{
+.parentsButt{
 	font-size: 20px;
 	font-weight: bold;
 	color: white; 
@@ -38,28 +52,87 @@ body {
 	}
 
 p    {
-	 color: #19FF19;
+	 //color: #19FF19;
+	 color: white;
 	 width:100%; font-size: 40px; font-weight: bold;
 	 text-align: center;
 	 //position-align: middle;
 	 position: relative;
-	 top: 210px; 
+	 //top: 0px; 
 	 //bottom: 100px;
+}
+.centerImg   {
+	 //width: 239px ;
+     //margin-left: auto ;
+     //margin-right: auto ;
+    //align="center";
+	 position: relative;
+	top: 140px; 
+	 
+	}
+	
+	.center1 {
+    font-family:courier;
+     font-weight: bold;
+     font-size:800%;
+	 text-align: center;
+	 color:#19FF19;
+	margin: auto;
+    width: 683px;
+    border:3px solid Red;
+    padding: 10px;
+	//float: right;
+	//position: absolute;
+	position: relative;
+	//top: 300px;
+	bottom: 100px;
+}
+
+.center{
+    font-family:courier;
+     font-weight: bold;
+     font-size:800%;
+	 text-align: center;
+	 //color:#19FF19;
+	 color: white;
+	width: 620px;
+    height: 130px;
+	border:5px solid white;
+    //background-color: red;
+
+    position: absolute;
+    top:750;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
 }
 
 .digitalClock{
      //background-color:blue; 
-	 color:#19FF19;
 	 //color:#FF00FF;
-	 max-width: 650px;
+	 color:#19FF19;
+	 //max-width: 610px;
      height: 15%;
      font-family:courier;
      font-weight: bold;
      font-size:800%;
-	 //text-align: center;
-	 position: relative;
+	 //align="center";
+	 text-align: center;
+	 //position: relative;
+	 position: absolute;
 	 //vertical-align: middle;
-     top: 320px;
+     top: 750px;
+	 margin: auto;
+	 width: 683px;
+	 //margin-left: auto ;
+     //margin-right: auto ;
+    //width: 45%;
+	
+    border:4px solid Yellow;
+    //padding: 5px;
+	
 }
 
 h2   {color:Red; text-align: center;
